@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.11.0 on darwin)" generated="2025-03-22T16:59:36.605818" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.11.0 on darwin)" generated="2025-03-22T17:01:12.084361" rpa="false" schemaversion="5">
 <suite id="s1" name="Login Tests" source="/Users/70008617/robot-test/tests/login_tests.robot">
 <test id="s1-t1" name="User Can Login Successfully" line="7">
 <kw name="Open Browser To Login Page" owner="common">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-03-22T16:59:36.720944" level="INFO">Opening browser 'Chrome' to base url 'https://example.com/login'.</msg>
+<msg time="2025-03-22T17:01:12.195281" level="INFO">Opening browser 'Chrome' to base url 'https://example.com/login'.</msg>
 <arg>${LOGIN_URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-03-22T16:59:36.720789" elapsed="3.496851"/>
+<status status="PASS" start="2025-03-22T17:01:12.195116" elapsed="4.575145"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-03-22T16:59:40.218145" elapsed="0.359021"/>
+<status status="PASS" start="2025-03-22T17:01:16.770683" elapsed="0.356596"/>
 </kw>
-<status status="PASS" start="2025-03-22T16:59:36.720289" elapsed="3.856984"/>
+<status status="PASS" start="2025-03-22T17:01:12.194610" elapsed="4.932782"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-03-22T16:59:42.578399" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-03-22T17:01:19.128729" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-03-22T16:59:40.577483" elapsed="2.001438"/>
+<status status="PASS" start="2025-03-22T17:01:17.128170" elapsed="2.000940"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-03-22T16:59:42.580188" elapsed="0.079506"/>
+<status status="PASS" start="2025-03-22T17:01:19.129768" elapsed="0.077831"/>
 </kw>
-<status status="PASS" start="2025-03-22T16:59:36.719869" elapsed="5.940049"/>
+<status status="PASS" start="2025-03-22T17:01:12.194218" elapsed="7.013604"/>
 </test>
-<status status="PASS" start="2025-03-22T16:59:36.606580" elapsed="6.053639"/>
+<status status="PASS" start="2025-03-22T17:01:12.085298" elapsed="7.122850"/>
 </suite>
 <statistics>
 <total>
@@ -41,6 +41,6 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2025-03-22T16:59:36.719527" level="WARN">Imported library '/Users/70008617/robot-test/keywords/custom_keywords.py' contains no keywords.</msg>
+<msg time="2025-03-22T17:01:12.193876" level="WARN">Imported library '/Users/70008617/robot-test/keywords/custom_keywords.py' contains no keywords.</msg>
 </errors>
 </robot>

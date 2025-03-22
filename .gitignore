@@ -1,9 +1,10 @@
-# Ignore all log files
-*log.html
-*output.xml
-*report.html
+# Ignore specific log, report, and output files
+log.html
+output.xml
+report.html
+
+# Ignore .pyc files
 *.pyc
 
-
-### VS Code ###
-node_modules
+# Ignore node_modules (VS Code)
+node_modules/
