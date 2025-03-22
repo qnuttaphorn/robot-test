@@ -69,12 +69,32 @@ Before you begin, ensure you have the following installed:
 ## Running Tests
 
 - **robot**
-    - Can be running (Robot)
+    - Can be running (Robot All Test)
     ```bash
-    robot tests/login_tests.robot
+    robot tests/lexample_tests.robot
     ```
 
-    - Can be running (yarn)
+    - Can be running (yarn All Test)
     ```bash
     yarn test
+    ```
+
+    - Run Test By tag custom
+    ```bash
+    robot --include custom tests/ 
+    ```
+
+    - Run Test By tag landOnWeb
+    ```bash
+    robot --include landOnWeb tests/ 
+    ```
+
+    - Run Test By tag without custom
+    ```bash
+    robot --exclude custom tests/ 
+    ```
+
+    - Run Test By tag tag without landOnWeb
+    ```bash
+    robot --exclude landOnWeb tests/ 
     ```
