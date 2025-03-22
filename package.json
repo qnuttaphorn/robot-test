@@ -1,0 +1,7 @@
+{
+  "name": "my-robot-project",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "robot tests/login_tests.robot"
+  }
+}
